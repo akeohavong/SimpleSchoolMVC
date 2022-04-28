@@ -1,0 +1,19 @@
+﻿@model SimpleSchool.Core.Entities.Room
+
+<h1>Room Information</h1>
+<div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-4">
+        <form>
+            <fieldset disabled>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="RoomID">Id</label>
+                    <input type="text" class="form-control" id="RoomID" asp-for="RoomID">
+                </div>
+                <div class="mb-3">
+                    <label asp-for="RoomNumber" class="form-label">Number</label>
+                    <input type="text" class="form-control" id="RoomNumber" asp-for="RoomNumber">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
